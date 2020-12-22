@@ -1,3 +1,6 @@
+IF OBJECT_ID(N'analytics') IS NOT NULL
+   DROP PROCEDURE analytics
+GO
 CREATE PROCEDURE [dbo].[analytics]
 AS
 TRUNCATE TABLE [dbo].[RepoAnalytics];
