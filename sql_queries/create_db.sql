@@ -1,0 +1,1 @@
+IF NOT EXISTS(SELECT * FROM sys.databases WHERE name = 'github_repo') CREATE DATABASE [github_repo] (EDITION = 'Basic', SERVICE_OBJECTIVE = 'Basic', MAXSIZE = 2 GB) WITH CATALOG_COLLATION = SQL_Latin1_General_CP1_CI_AS
