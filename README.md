@@ -103,3 +103,7 @@ It will test, if new TABLES *created/exists* and check it schema
 ```CMD
 python -m pytest tests/unit -m "unittestresults"
 ```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
