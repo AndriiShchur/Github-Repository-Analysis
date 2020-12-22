@@ -81,5 +81,25 @@ To test scripts result, you can use unit test in *test/unit* folder
 ```CMD
 python -m pytest tests/unit -k "unittestdb"
 ```
-
 It will test, if new DB *created/exists* and check it cofiguration.
+
+**To test DB's schema run:**
+
+```CMD
+python -m pytest tests/unit -m "unittesttableexc"
+```
+It will test, if new TABLES *created/exists* and check it schema
+
+**To test DB's schema run:**
+
+```CMD
+python -m pytest tests/unit -m "unittesttableexc"
+python -m pytest tests/unit -m "unittesttablestr"
+```
+It will test, if new TABLES *created/exists* and check it schema
+
+**To test If the last Repository in RepoMain TABLE have Analytics run:**
+
+```CMD
+python -m pytest tests/unit -m "unittestresults"
+```
