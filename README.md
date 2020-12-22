@@ -72,12 +72,12 @@ I will see the foloowinf results (*Example*):
 
 ![alt text](https://github.com/AndriiShchur/Github-Repository-Analysis/blob/main/sql_queries/results_exmp.JPG)
 
-*MinPRTime* - minimum minutes to merge PR in Repository
-*MaxPRTime* - maximun minutes to merge PR in Repository
-*AVGPRTime* - average minutes to merge PR in Repository
-*Top1File* - the first file changed most often in pull requests in Repository
-*Top2File* - the second file changed most often in pull requests in Repository
-*Top3File* - the thisd file changed most often in pull requests in Repository
+- *MinPRTime* - minimum minutes to merge PR in Repository
+- *MaxPRTime* - maximun minutes to merge PR in Repository
+- *AVGPRTime* - average minutes to merge PR in Repository
+- *Top1File* - the first file changed most often in pull requests in Repository
+- *Top2File* - the second file changed most often in pull requests in Repository
+- *Top3File* - the thisd file changed most often in pull requests in Repository
 
 ## Testing
 
