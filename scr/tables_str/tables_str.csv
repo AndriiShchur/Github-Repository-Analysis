@@ -1,0 +1,17 @@
+﻿TABLE_NAME,COLUMN_NAME,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH
+RepoMain,RepoID,NO,int,
+RepoMain,RepoName,NO,varchar,255
+PRMain,RepoID,YES,int,
+PRMain,PRID,NO,int,
+PRMain,CreatedAt,YES,datetime,
+PRMain,MergedAt,YES,datetime,
+PRFiles,PRID,YES,int,
+PRFiles,FileName,NO,varchar,255
+PRFiles,RepoID,YES,int,
+RepoAnalytics,RepoID,YES,int,
+RepoAnalytics,MinPRTime,YES,numeric,
+RepoAnalytics,MaxPRTime,YES,numeric,
+RepoAnalytics,AVGPRTime,YES,numeric,
+RepoAnalytics,Top1File,YES,varchar,255
+RepoAnalytics,Top2File,YES,varchar,255
+RepoAnalytics,Top3File,YES,varchar,255
