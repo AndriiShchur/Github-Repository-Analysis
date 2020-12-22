@@ -27,3 +27,10 @@ Insert sql script name `create_db.sql` and change DB configuration inside file i
 python scr\scripts\create_tables.sql
 ```
 Insert sql script name `create_tables.sql` and change TABLE's schema inside file if it necessary.
+
+**To create PROCEDURCE AND TRIGER for ANALYTICS TABLE run:**
+
+```CMD
+python scr\scripts\create_sql_proc_and_trig.sql
+```
+Insert sql script name `analytics_procedure.sql` for procedurce name and `analytics_update_triger.sql` for trigger name, than change parametrs inside files if it necessary.
