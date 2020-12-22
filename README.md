@@ -19,4 +19,5 @@ To create DB run:
 ```CMD
 python scr\scripts\create_db.py
 ```
-Insert sql script name (create_db.sql) and change DB configuration inside if it necessary.
+Insert sql script name (######create_db.sql)
+and change DB configuration inside if it necessary.
