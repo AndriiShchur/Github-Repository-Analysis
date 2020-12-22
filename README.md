@@ -14,6 +14,15 @@ I will use the following schema:
 
 ![alt text](https://github.com/AndriiShchur/Github-Repository-Analysis/blob/main/sql_queries/github_repo_db_diagram.JPG)
 
+**Create  env.dist files with credential:**
+
+`SERVER="sql server name"
+DB="main"
+USER="your sql server name user"
+PASSWORD="your sql server name password"
+DB_NAME_TEST="your new db for analytics"
+GIT_TOKEN = "your git token"`
+
 **To create DB run:**
 
 ```CMD
@@ -34,3 +43,4 @@ Insert sql script name `create_tables.sql` and change TABLE's schema inside file
 python scr\scripts\create_sql_proc_and_trig.sql
 ```
 Insert sql script name `analytics_procedure.sql` for procedurce name and `analytics_update_triger.sql` for trigger name, than change parametrs inside files if it necessary.
+
