@@ -46,3 +46,12 @@ python scr\scripts\create_sql_proc_and_trig.sql
 ```
 Insert sql script name `analytics_procedure.sql` for procedurce name and `analytics_update_triger.sql` for trigger name, than change parametrs inside files if it necessary.
 
+**To get data from GitHub repository and INSERT to SQL DB run:**
+
+```CMD
+python scr\scripts\get_data_from_git.py
+```
+Insert sql script name `insert_new_repo.sql` to load new Repository name in RepoMain table, `insert_records_in_pr_main.sql`to load new PR's information in PRMain table,
+`insert_records_in_pr_files.sql`to load new PR's files information in PRFile table. The RepoAnalytics TABLE will update automaticly, when last record in PRFile table will bee INSERT.
+
+
