@@ -68,3 +68,6 @@ SELECT ra.[RepoID]
 FROM [dbo].[RepoAnalytics] AS ra
 LEFT JOIN RepoMain AS rm ON ra.RepoID=rm.RepoID
 ```
+I will see the foloowinf results (*Example*):
+
+![alt text](https://github.com/AndriiShchur/Github-Repository-Analysis/blob/main/sql_queries/results_exmp.JPG)
