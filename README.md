@@ -71,3 +71,15 @@ LEFT JOIN RepoMain AS rm ON ra.RepoID=rm.RepoID
 I will see the foloowinf results (*Example*):
 
 ![alt text](https://github.com/AndriiShchur/Github-Repository-Analysis/blob/main/sql_queries/results_exmp.JPG)
+
+## Testing
+
+To test scripts result, you can use unit test in *test/unit* folder
+
+**To test DB creation run:**
+
+```CMD
+python -m pytest tests/unit -k "unittestdb"
+```
+
+It will test, if new DB *created/exists* and check it cofiguration.
