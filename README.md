@@ -16,12 +16,14 @@ I will use the following schema:
 
 **Create  env.dist files with credential:**
 
-`SERVER="sql server name"
+```
+SERVER="sql server name"
 DB="main"
 USER="your sql server name user"
 PASSWORD="your sql server name password"
 DB_NAME_TEST="your new db for analytics"
-GIT_TOKEN = "your git token"`
+GIT_TOKEN = "your git token"
+```
 
 **To create DB run:**
 
