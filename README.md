@@ -14,14 +14,14 @@ I will use the following schema:
 
 ![alt text](https://github.com/AndriiShchur/Github-Repository-Analysis/blob/main/sql_queries/github_repo_db_diagram.JPG)
 
-To create DB run:
+###### To create DB run:
 
 ```CMD
 python scr\scripts\create_db.py
 ```
 Insert sql script name `create_db.sql` and change DB configuration inside file if it necessary.
 
-To create TABLES run:
+###### To create TABLES run:
 
 ```CMD
 python scr\scripts\create_tables.sql
