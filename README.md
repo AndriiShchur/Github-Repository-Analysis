@@ -57,5 +57,14 @@ Insert sql script name `insert_new_repo.sql` to load new Repository name in `Rep
 **To get analytic's results run:**
 
 ```SQL
-SELECT * FROM RepoAnalytics
+SELECT ra.[RepoID]
+      ,rm.[RepoName]
+      ,ra.[MinPRTime]
+      ,ra.[MaxPRTime]
+      ,ra.[AVGPRTime]
+      ,ra.[Top1File]
+      ,ra.[Top2File]
+      ,ra.[Top3File]
+FROM [dbo].[RepoAnalytics] AS ra
+LEFT JOIN RepoMain AS rm ON ra.RepoID=rm.RepoID
 ```
