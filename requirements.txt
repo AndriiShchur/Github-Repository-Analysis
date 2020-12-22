@@ -1,0 +1,5 @@
+pytest
+pyodbc
+python-dotenv
+pandas
+numpy
